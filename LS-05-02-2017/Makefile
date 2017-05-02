@@ -1,6 +1,6 @@
 run: compile
-	mpirun -np 4 ./Ejercicio1.sh
+	mpirun -np 4 ./mpiEx2a.sh
 compile:
-	mpicc Ejercicio1.c -o Ejercicio1.sh
+	mpicc mpiEx2a.c -o mpiEx2a.sh
 clean:
-	rm -rf Ejercicio1.sh
+	rm -rf mpiEx2a.sh
